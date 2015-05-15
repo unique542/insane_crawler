@@ -37,6 +37,7 @@ forum_ids = {'YM': 230, 'WM': 143}
 
 text_order = ['star', 'url', 'title', 'comment', 'view', 'time']
 
+
 def get_valid_filename(filename):
     keepcharacters = (' ', '.', '_')
     return "".join(c for c in filename if c.isalnum() or c in keepcharacters).rstrip()
